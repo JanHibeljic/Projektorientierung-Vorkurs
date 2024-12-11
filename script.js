@@ -13,19 +13,17 @@ let contacts = [
 class Contact {
   firstName;
   lastName;
+
+  constructor(fN, lN) {
+    this.firstName = fN;
+    this.lastName = lN;
+    console.log("new contact created");
+  }
 }
 
-//new Contact();
-//{
-//  firstName: undefined,
-//  lastName: undefined,
-//}
 function addContact(fN, lN) {
-  let myContact = new Contact();
-  myContact["firstName"] = fN;
-  myContact["firstName"] = lN;
+  let myContact = new Contact(fN, lN);
   contacts.push(myContact);
-  debugger;
 }
 
 addContact("Jan", "Hibeljic");
