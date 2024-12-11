@@ -1,6 +1,6 @@
 let contacts = [
   // JSON = JavaScript Object Notation
-  new Contact("Jessica", "Moldovan"),
+  new Contact("Jessica", "Moldovan", "01234343434"),
 ];
 
 function addContact(fN, lN) {
@@ -8,6 +8,6 @@ function addContact(fN, lN) {
   contacts.push(myContact);
 }
 
-addContact("Jan", "Hibeljic");
-addContact("Feli", "Schenk");
-addContact("Luk", "Schenk");
+addContact("Jan", "Hibeljic", "012343434345");
+addContact("Feli", "Schenk", "012343434346");
+addContact("Luk", "Schenk"), "012343434347";
