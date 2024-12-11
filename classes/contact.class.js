@@ -1,11 +1,8 @@
-class Contact {
-  firstName;
-  lastName;
+class Contact extends Person {
   phone;
 
   constructor(fN, lN, phone) {
-    this.firstName = fN;
-    this.lastName = lN;
+    super(fN, lN); // verwenden wenn eine übergeordnete Klasse existiert
     this.phone = phone;
     console.log("new contact created");
   }

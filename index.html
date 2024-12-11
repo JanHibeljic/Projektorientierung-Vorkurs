@@ -10,6 +10,11 @@
     <h1>Video 2 - JSON-Objekte</JSON-Objekte></h1>
 
     <!-- auf reihenfolge achten -->
+    <script src="classes/person.class.js"></script>
+    <!-- Fehlermeldung nach superklasse: contact.class.js:5 Uncaught ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new Contact (contact.class.js:5:5)
+    at script.js:3:3  -->
+    <script src="classes/friend.class.js"></script>
     <script src="classes/contact.class.js"></script> 
     <script src="script.js"></script>
     <!-- auf reihenfolge achten, sonst fehler script.js:3 Uncaught ReferenceError: Contact is not defined-->
