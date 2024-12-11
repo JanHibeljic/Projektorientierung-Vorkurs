@@ -2,9 +2,13 @@ let contacts = [
   // JSON = JavaScript Object Notation
 ];
 
-function addContact() {
+function addContact(firstName, lastName) {
   contacts.push({
-    firstName: "Jan",
-    lastName: "Hibeljic",
+    firstName: firstName,
+    lastName: lastName,
   });
 }
+
+addContact("Jan", "Hibeljic");
+addContact("Feli", "Schenk");
+addContact("Luk", "Schenk");
