@@ -1,6 +1,19 @@
 let contacts = [
   // JSON = JavaScript Object Notation
+  {
+    firstName: "Ale",
+    surname: "Muffer",
+    adress: "Musterstr",
+  },
 ];
+
+// Beschreibung, wie ein Objekt aussehen soll
+// Vorlage
+// Schablone
+class Contacts {
+  firstName;
+  lastName;
+}
 
 function addContact(firstName, lastName) {
   contacts.push({
